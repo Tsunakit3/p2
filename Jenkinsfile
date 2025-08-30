@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Tsunakit3/hello-world-java-3.git'
+                git branch: 'master', url: 'https://github.com/Tsunakit3/p2.git'
             }
         }
         stage('Build') {
